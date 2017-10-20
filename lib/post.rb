@@ -6,4 +6,8 @@ class Post
     @title = title
   end
 
+  def author_name
+    author ? author.name : nil
+  end
+
 end
